@@ -1,0 +1,523 @@
+
+@media only screen and (max-width:786px){
+  
+    .nav{
+      width: 100%;
+      margin:0px;
+      height: 12vh;
+      justify-content: space-between;
+      padding-left: 20px!important;
+  }
+  
+  .hamburger{
+    display:block;
+    /* margin-left:0px; */
+    z-index: 1000;
+  }
+  
+  .logo-block{
+    position:sticky;
+  }
+  
+  
+   .side-menu ul{
+    margin: 0;
+    position: absolute;
+    padding: 0;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transform: translateX(-120%);
+    transition: .2s;
+    /* overflow-y: hidden; */
+    z-index: 999!important;
+  }
+  
+  .side-menu ul.active{
+    transform: translateX(0%);
+  }
+
+  .nav li.active{
+    display: none;
+  }
+
+  .side-menu ul li.active{
+    display: block;
+  }
+
+
+  .content{
+     text-align: center;
+  }
+
+  .title{
+    font-size: 40px;
+  }
+
+  .para{
+    margin: 0 auto;
+  }
+  
+
+  .full-button-container{
+    justify-content: center;
+  }
+
+
+    /* ***************   Section 1 **************** */
+
+    .section-1{
+      width: 100%;
+      height: auto;
+    }
+
+    .section-1 .section-flex .section-left{
+      flex:100%;
+      margin-top: 50px;
+    }
+    
+    .section-1 .section-flex .section-right{
+      margin-top: 50px;
+      flex:100%;
+    }
+
+    .section-1 .title{
+       font-size: 50px;
+    }
+
+    .section-1 .para{
+      margin: 0 auto;
+    }
+
+    .section-1 .section-img-container{
+       display: flex;
+       justify-content: center;
+    }
+
+
+    /* **********  section 3  ************** */
+
+    .section-3 .content{
+      margin:0 auto;
+      max-width: 600px;
+    }
+
+    .section-3 .content .para{
+      margin: 0 auto;
+      font-size: 15px;
+    }
+
+    .section-3 .section-right{
+      padding-top: 80px;
+    }
+
+    .section-3 .sr:after{
+      top:-10%;
+    }
+
+
+    /* *******  section 3-2  ******** */
+
+    .section-3-2 {
+       padding-top:60px;
+    }
+
+    .section-3-2 .content{
+      padding-left: 0;
+    }
+     .section-3-2 .section-left{
+       order:1;
+       padding-top: 70px;
+     }
+
+     .section-3-2 .section-right{
+       order:0;
+       padding-top: 40px;
+     }
+
+     .section-3-2 .section-left:after{
+       top: -10%;
+     }
+
+
+
+    /* ***********  Section 4   *********** */
+
+     .section-4{
+       height: auto;
+     }
+
+     .section-4 .section-left{
+       flex: 100%;
+     }
+
+     .section-4 .section-right{
+       flex: 100%;
+       padding-top: 40px;
+     }
+
+     .section-4 .section-img-container{
+       margin-top: 0;
+       display: flex;
+       justify-content: center;
+     }
+
+     .section-4 .section-img-container:before{
+        top:55%;
+        left:40%;
+        transform: rotate(45deg);
+        z-index: 1;
+     }
+
+     .section-4 .section-img-container:after{
+        top:43%;
+        left:35%;
+        transform: rotate(40deg);
+        z-index: 2;
+     }
+   
+
+     /* ***********  Section 5   *********** */
+
+     .section-5{
+      width: 100%;
+    }
+
+    .section-5 .section-block{
+      width: 92%;
+    }
+
+
+
+
+
+  /* ***************   Footer   **************** */
+
+   .footer .col-md-4{
+     margin-top: 30px;
+   }
+
+}
+
+
+
+
+@media only screen and (max-width:600px){
+
+   .title{
+     font-size: 30px;
+   }
+
+   .section-1 .title{
+     font-size: 40px;
+   }
+
+   .section-2{
+     padding: 50px 20px;
+   }
+
+
+   /* *********  Circle container  ********* */
+    .circle-container{
+       width: 380px;
+       height: 380px;
+    }
+
+    .circle-container img{
+      max-width: 60px;
+    }
+
+    .circle-box-container{
+      width: 130px;
+    }
+
+    .circle-box-container h1{
+      padding-top: 10px;
+      font-size: 14px;
+    }
+
+    .circle-box-container h5{
+      font-size: 10px;
+    }
+
+    .circle-v img,
+    .circle-oe img,
+    .circle-ps img,
+    .circle-wc img,
+    .circle-s img{
+      max-width: 100px;
+    }
+
+}
+
+
+@media only screen and (max-width:500px){
+
+   .hero-bar{
+     width: 170px;
+   }
+
+   .section-1 .section-img-container img{
+     max-width: 320px;
+   }
+
+   .section-1 .section-img-container:after{
+     top:-10%;
+      right: -450px;
+      height: 160px;
+   }
+   
+    /* *********  Circle container  ********* */
+    .circle-container{
+       width: 340px;
+       height: 340px;
+    }
+
+    .circle-container img{
+      max-width: 50px;
+    }
+
+    .box-red{
+      left: -15%;
+    }
+
+    .box-green{
+      left: 55%;
+    }
+
+    /* ********  section 3-2  ************ */
+
+    .section-3-2 .circle-container{
+      width: 320px;
+      height: 320px;
+    }
+
+    .circle-v img,
+    .circle-oe img,
+    .circle-ps img,
+    .circle-wc img,
+    .circle-s img{
+      max-width: 80px;
+    }
+
+
+    /* **************  Footer **************** */
+
+    .footer .col-lg-3,
+    .footer .col-lg-2{
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    .footer .logo{
+      font-size: 35px;
+    }
+    .footer-bottom{
+      padding: 20px;
+    }
+
+    .footer-bottom ul{
+      padding-top: 20px;
+    }
+
+    .footer .first-row{
+       padding:  0 10px 40px;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width:450px){
+
+  .title{
+     font-size: 23px;
+   }
+
+   .para{
+     font-size: 12px!important;
+   }
+   .section-1 .title{
+     font-size: 32px;
+   }
+
+
+  /* ***********   Circle Container  *************** */
+  
+  .circle-container{
+    width: 300px;
+    height: 300px;
+  }
+
+  .section-3-2 .circle-container {
+      width: 260px;
+      height: 260px; 
+  }
+
+  .circle-box-container{
+    width: 110px;
+    padding: 10px 5px;
+  }
+
+  .circle-container img{
+    max-width: 40px;
+  }
+
+  .circle-box-container h1{
+    font-size: 12px;
+  }
+
+  .circle-box-container h5{
+    font-size: 8px;
+  }
+
+  .box-red{
+    left:-10%;
+  }
+
+   .circle-v img,
+    .circle-oe img,
+    .circle-ps img,
+    .circle-wc img,
+    .circle-s img{
+      max-width: 60px;
+    }
+
+
+    /* *****************  Section 4   ***************** */
+
+    .section-4 .section-img-container img{
+      max-width: 300px;
+    }
+
+    .section-4 .section-img-container:before{
+      top: 52%;
+      left: 25%;
+      /* z-index: 3; */
+    }
+
+    .section-4 .section-img-container:after{
+      top:40%;
+      left: 20%;
+      /* z-index: 2; */
+      /* transform: rotate(50deg); */
+    }
+}
+
+
+
+
+@media only screen and (max-width:400px){
+    
+  .section-1 .section-img-container img{
+    max-width: 260px;
+  }
+
+  .section-1 .section-img-container:after{
+    right: -500px;
+    height: 120px;
+  }
+    
+  /* ***********   Circle Container  *************** */
+  
+  .circle-container{
+    width: 260px;
+    height: 260px;
+  }
+
+  .box-red{
+    left: -18%;
+  }
+
+  .section-3-2 .circle-container{
+    width: 230px;
+    height: 230px;
+  }
+   
+}
+
+
+
+@media only screen and (max-width:320px){
+
+  header{
+    margin-top: 80px;
+    padding: 0 10px;
+  }
+
+  header .content .title{
+    font-size: 33px;
+    line-height: 45px;
+  }
+
+  /* ************  Section 1   ************* */
+
+  .section-1{
+    height: 400px;
+    padding: 0 10px;
+  }
+  .section-1 .para-container{
+    padding-left: 0;
+  }
+
+  /* ***********  Section 2  ************** */
+
+  .section-2{
+    padding: 0 10px;
+  }
+
+  .section-2 .content,
+  .section-3 .content,
+  .section-4 .content{
+    padding-left: 0;
+  }
+
+  /* ***********  Section 3  ************ */
+
+  .section-3{
+    padding: 50px 10px;
+  }
+
+  /* *********  Section 4  ************ */
+
+  .section-4{
+    padding: 0 10px;
+  }
+
+  /* *********  Section 5 ************ */
+
+  .section-5 .section-block .section-left-block{
+    padding: 30px 0;
+  }
+
+  .section-5 .section-blog-info{
+    margin-left: 20px;
+  }
+
+  /* **********  section 7  ************ */
+
+  .section-7 .section-left,
+  .section-7 .section-right{
+    padding: 50px 10px;
+  }
+
+  .section-7 .col-lg-4,
+  .section-7 .col-lg-8{
+     padding: 0;
+  }
+
+  /* **********  Footer   ************* */
+
+  .footer{
+    padding: 0;
+  }
+
+}
